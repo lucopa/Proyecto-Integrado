@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="escudo_virgen_carmen.jpg">
+    <title>INICIAR SESIÓN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-image: url(viren_del_carmen.jpg);
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        
+        h1{
+            font-family: 'Lobster', cursive;
+            color: rgb(2, 2, 153);
+        }
+        img.escudo{
+            height: 60px;
+            float: left;
+        }
+        div.inicioSesion{
+            display: block;
+            background-color: white;
+            width: 500px;
+            align-items: center;
+            margin: auto;
+            opacity: 0.85;
+        }
+        p.escuela{
+            text-align: center;
+        }
+        h2.escuela{
+            text-align: center;
+        }
+        div.escuela{
+            margin-top: 0px;
+            
+            padding-top: 30px;
+            padding-bottom: 30px;
+          
+        }
+        input.escuela{
+            align-items: center;
+            justify-content: center;
+        }
+        form.escuela{
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .reservas
+        {
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="escuela">
+    <img class="escudo" src="escudo_virgen_carmen.jpg"><h1>I.E.S Virgen del Carmen</h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="inicioSesion">
+        <h2 class="escuela">Inicie sesión</h2>
+        <form class="escuela" method="post" action="recibirdatos.php">
+            <p class="uno" >Nombre de usuario:<br><input type="text" name="nombre" /></p>
+            <p class="uno">Contraseña:<br><input type="password" name="contraseña"></p>
+            <p class="uno">Email:<br><input type="email" name="email"></p>
+            <a href="file:///C:/Users/matinal/Desktop/clase/proecto%20integrado/html/uno.html"><input  type="submit" value="Enviar" /></a>
+            <br>
+            <br>
+            <a class="reservas" href=uno.html> Reservar y consultar Espacios</a>
+        </form>
+        <br>
+       
+        
+        <br>
+    </div>
+</body>
+</html>
